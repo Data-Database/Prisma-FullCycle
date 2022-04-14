@@ -9,6 +9,8 @@ services:
       POSTGRES_USER: docker
       POSTGRES_PASSWORD: docker
       POSTGRES_DB: docker
+    ports:
+      - "5432:5432"
 
   adminer:
     image: adminer

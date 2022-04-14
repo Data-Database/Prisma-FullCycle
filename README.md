@@ -25,3 +25,10 @@ npx tsc --init
 ## Inicializar Prisma
 
 npx prisma init
+
+---
+
+## First Prisma Migrate
+
+npx prisma migrate dev
+npx prisma migrate prod
