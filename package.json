@@ -1,0 +1,27 @@
+{
+  "name": "Prisma-FullCycle",
+  "version": "1.0.0",
+  "description": "https://youtu.be/C8Oc31uk2Hw",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsnd --respawn --transpile-only src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Data-Database/Prisma-FullCycle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Data-Database/Prisma-FullCycle/issues"
+  },
+  "homepage": "https://github.com/Data-Database/Prisma-FullCycle#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "prisma": "^3.12.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
