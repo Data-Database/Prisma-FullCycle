@@ -19,3 +19,9 @@ npm i typescript @types/node ts-node-dev -D
 ## Inicializar TypeScript
 
 npx tsc --init
+
+---
+
+## Inicializar Prisma
+
+npx prisma init
